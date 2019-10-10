@@ -45,7 +45,7 @@ function modelLoaded() {
 // ポーズが変わるたびに呼ばれるコールバック関数
 function gotPoses(poses) {
   if (0 < poses.length){
-    console.log(poses);
+    // console.log(poses);
     
     let newNoseX = poses[0].pose.nose.X;
     let newNoseY = poses[0].pose.nose.Y;
